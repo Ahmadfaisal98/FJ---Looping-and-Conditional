@@ -1,7 +1,7 @@
 /**
  * Create pyramid with for looping
  * @param {Number} height
- * @returns 
+ * @returns Pyramid string
  */
 function createPyramid(height) {
   // write your code here

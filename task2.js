@@ -2,7 +2,7 @@
  * 
  * @param {String[]} words
  * @param {*} minLength 
- * @returns 
+ * @returns filteredWords
  */
 function filterWordsByLength(words, minLength) {
   // write your code here
