@@ -1,5 +1,6 @@
 /**
- * Create pyramid with for looping
+ * Calculate word value with a-z = 1-26 and A-Z = 27-52
+ * Count the total value
  * @param {String} word
  * @returns {Number}
  */
