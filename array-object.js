@@ -63,6 +63,36 @@ const arrayObject1 = [
   }
 ]
 
+// menambahkan
+arrayObject1.push({
+  name: 'Joni',
+  phoneNumber: 12312,
+  detail: {
+    tall: '150 cm',
+    weight: '40 kg',
+    color: 'brown'
+  },
+  cars: ['Civic']
+});
+
+// menghapus value dalam array
+arrayObject1.splice(0, 1)
+
+// mengedit value
+arrayObject1[1].name = 'Jono'
+
+// manipulasi masing-masing data -> phoneNumber tambah 2
+const newAUsers = arrayObject1.map((user) => {
+  //  user.phoneNumber = user.phoneNumber  + 2
+  //  return user
+  return {
+    ...user,
+    phoneNumber: user.phoneNumber + 2
+  }
+})
+
+console.log(newAUsers)
+
 // console.log(arrayObject1[0].name)
 
 for (const user of arrayObject1) { // looping
@@ -121,7 +151,7 @@ const arrayNewUsers = arrayObject1.map((user) => {
   return user
 })
 
-// console.log(arrayNewUsers, 'arrayNewUsers')
+console.log(arrayNewUsers, 'arrayNewUsers');
 
 const responseSampleAPI = {
   "results":[
@@ -304,7 +334,7 @@ const responseSampleAPI = {
 
 // manipulasi response jadi lebih sederhana
 // dengan array object, yang objectnya: name (digabungkan semua), location digabungkan dengan format (Unit No. 7241, Calle de Segovia, Cuenca, Galicia, Spain)
-console.log(responseSampleAPI)
+// console.log(responseSampleAPI)
 
 const newData = responseSampleAPI.results.map((res) => {
   return {
@@ -313,4 +343,4 @@ const newData = responseSampleAPI.results.map((res) => {
   }
 })
 
-console.log(newData, 'newData')
+// console.log(newData, 'newData')
