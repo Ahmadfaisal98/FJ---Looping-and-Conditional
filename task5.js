@@ -1,6 +1,6 @@
 /**
-  Buat function-function berikit dari sample data
-  1. untuk menambahkan array object
+  Buat function-function berikut dari sample data
+  1. untuk menambahkan array object (new user dengan id auto-increament dari id tertinggi)
   2. untuk menghapus object dalam array  dari id
   3. untuk mengedit value name dalam array objecy  dari id
   4. untuk memanipulasi data array object dengan menambah 1 tahun masing-masing user  dari id
