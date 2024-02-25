@@ -1,9 +1,9 @@
 /**
   Buat function-function berikit dari sample data
   1. untuk menambahkan array object
-  2. untuk menghapus object dalam array
-  3. untuk mengedit value name dalam array objecy
-  4. untuk memanipulasi data array object dari id
+  2. untuk menghapus object dalam array  dari id
+  3. untuk mengedit value name dalam array objecy  dari id
+  4. untuk memanipulasi data array object dengan menambah 1 tahun masing-masing user  dari id
  */
 
 // Sample Data
